@@ -57,8 +57,20 @@ ul, li{
 .id-right{
 	color: #f0f0f0;
 	padding-right: 60px;
+	position: relative;
 }
-
+/*.id-right:before{
+	content: 'X';
+	font-size: 25px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #ddd;
+}*/
 .gallary-wrapper li.active > a{
 	position: relative;
 }

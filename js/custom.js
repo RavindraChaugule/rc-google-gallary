@@ -40,6 +40,14 @@ function rcGoogleGallary(){
 		}
 	});
 
+	$('body').click(function(e){
+	      if($(e.target).closest(itemanchor).length === 0 && $(e.target).closest(itemdetail).length === 0){
+	            itemdetail.slideUp('fast');
+	            item.removeClass('active');
+				item.removeAttr('style');
+	      }
+	});
+
 }
 
 
@@ -47,13 +55,7 @@ $(document).ready(function(){
 
 	rcGoogleGallary();
 
-	$('body').click(function(e){
-	      if($(e.target).closest(itemanchor).length === 0 && $(e.target).closest(itemdetail).length === 0){
-	            $(itemdetail).slideUp('fast');
-	            $(item).css('height','auto');
-	      }
-	})
-
+	
 
 });
 
