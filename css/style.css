@@ -1,3 +1,6 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 ul, li{
 	margin: 0;
 	padding: 0;
@@ -44,4 +47,42 @@ ul, li{
 }
 .gallary-wrapper > ul > li > a > img{
 	max-height: 150px;
+}
+.id-left{
+	text-align: center;
+}
+.id-left img{
+	max-width: 100%;
+}
+.id-right{
+	color: #f0f0f0;
+	padding-right: 60px;
+}
+
+.gallary-wrapper li.active > a{
+	position: relative;
+}
+.gallary-wrapper li.active a:after {
+    border-bottom: 10px solid #333;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0;
+    position: absolute;
+    bottom: 0px;
+    width: 0;
+    content: '';
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    }
+
+@media all and (max-width: 639px){
+.id-left,
+.id-right{
+	width: 100%;
+}
+.id-right{
+	color: #f0f0f0;
+	padding: 0px 20px 20px 20px;
+}
 }
