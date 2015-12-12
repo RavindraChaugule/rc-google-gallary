@@ -6,7 +6,7 @@ Custom image gallary in google tiles style
 
 ### About this gallary
 1. RC google gallary is a basic image gallary like Google images.
-2. It is created based on basic jquery tricks
+2. Created based on basic jquery tricks
 3. It is responsive.
 4. Improvements and interactiveness is in progress.
 
