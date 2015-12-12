@@ -34,8 +34,8 @@ ul, li{
 	box-sizing:border-box;
 }
 .gallary-wrapper > ul > li{
-	float: left;
-	display: block;
+	display: inline-block;
+	vertical-align: top;
 }
 .gallary-wrapper > ul > li > a{
 	display: block;
