@@ -11,5 +11,5 @@ Custom image gallary in google tiles style
 4. Improvements and interactiveness is in progress.
 
 ### Demo
- https://ravindrachaugule.github.io/rc-google-gallary/
+https://ravindrachaugule.github.io/rc-google-gallary/demo.html
 
