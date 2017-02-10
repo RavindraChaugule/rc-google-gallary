@@ -10,6 +10,6 @@ Custom image gallary in google tiles style
 3. It is responsive.
 4. Improvements and interactiveness is in progress.
 
-## Demo
+### Demo
  https://ravindrachaugule.github.io/rc-google-gallary/
 
